@@ -1,0 +1,5 @@
+Slate: #2b2b2b
+Bright Blue: #00d2cb
+Clean: #FFFFFF
+Light Blue: #c4f5f3
+Light Gray: #777777
