@@ -12,7 +12,6 @@ document.getElementById('contact-btn').addEventListener('click', function (event
 	}
 
 	else {
-		console.log(classes); 
 		classes.add('btn-active');
 		menu.classList.add('open'); 
 	}
