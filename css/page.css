@@ -1,6 +1,7 @@
 body {
 	background-color: #2b2b2b;
 	margin: 0 1% 0 1%;
+    font-family: Georgia, serif;
 }
 
 a {
@@ -20,12 +21,41 @@ ul {
 }
 
 p {
-	font-family: Georgia, sans-serif;
+	font-family: Georgia, serif;
 }
 
 
 h1,h2,h3,h4,h5 {
     color: #00d2cb;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; 
+}
+
+.btn {
+    border-width: 1px;
+    border-color: rgb(255, 255, 255);
+    border-style: solid;
+    border-radius: 4px;
+    padding: 0.5em 3.4em;
+    font-size: 0.9em;
+    font-style: italic;
+    transition: .5s cubic-bezier(0.22, 0.61, 0.36, 1);
+    background-color: #00d2bc;
+    display: inline-flex;
+    color: #FFF;
+    font-family: Georgia, serif;
+    max-width: 100%;
+}
+
+.btn:hover { 
+}
+
+/*clear anchor tag styles when in button*/
+.btn a {
+    text-decoration: none;
+    color: inherit;
+    background-color: inherit;
+    font-style: inherit;
+    border: none;
 }
 
 .mobile-only {
@@ -65,7 +95,8 @@ h1,h2,h3,h4,h5 {
 
 .wide-sidebar h3 {
     color: white;
-    font-weight: 100;
+    font-weight: 300;
+    letter-spacing: 0.03em;
 }
 
 .wide-sidebar ul {
@@ -102,6 +133,11 @@ h1,h2,h3,h4,h5 {
 
 
 @media only screen and (max-width: 768px) {
+
+    .main-container{
+        width: 100%;
+        margin: 0;
+    }
 
 	.menu-btn{
 		display: inline-flex;
