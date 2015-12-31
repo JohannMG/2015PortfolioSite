@@ -47,6 +47,8 @@ h1,h2,h3,h4,h5 {
 }
 
 .btn:hover { 
+
+    background-color: #0F756B;
 }
 
 /*clear anchor tag styles when in button*/
@@ -70,9 +72,12 @@ h1,h2,h3,h4,h5 {
     border-style: solid;
     border-radius: 4px;
     padding: 0.2em 2em 0.2em 2em;
-    font-size: 0.75em;
+    font-size: 1em;
     font-style: italic;
     transition: .5s cubic-bezier(0.22, 0.61, 0.36, 1);
+    background-color: #00d2bc;
+    font-weight: 100;
+
 
 }
 
@@ -131,25 +136,121 @@ h1,h2,h3,h4,h5 {
     color: white;
 }
 
+.mobile-menu { 
+    color: #FFF;
+}
+
+.secondclose {
+    text-align: center;
+    color: #A7A7A7;
+    font-size: .8em;
+}
+
+
 
 @media only screen and (max-width: 768px) {
+
+    .breadcrumbs {
+        display: none; 
+    }
 
     .main-container{
         width: 100%;
         margin: 0;
+        padding: 0; 
+    }
+
+    .mbl-cont{ 
+        padding: 0 1em;
+    }
+
+    .mobile-menu{ 
+
+    }
+
+    .mobile-menu a{
+        color: #FFF; 
+    }
+
+    .mobile-menu li { 
+        color: #FFF;
+    }
+
+    .mobile-menu h1,
+    .mobile-menu h2, 
+    .mobile-menu h3{ 
+        color: #FFF;
+    } 
+
+    .mobile-menu a {
+        text-decoration: none;
+        color: inherit;
+        background-color: inherit;
+        font-style: inherit;
+        border: none;
+    }
+
+    .menu-slide {
+        max-height: 0;
+        overflow: hidden;
+    }
+
+    .menu-slide.open {
+        max-height: 1200px; 
+    }
+
+    .header-name{
+        width: 50%; 
+        display: inline-block;
     }
 
 	.menu-btn{
 		display: inline-flex;
 		margin-right: 20px;
+        margin-top: 1em;
 	}
+
+    .menu-btn.active {
+        background: #4C4C4C;
+    }
 
 	.mobile-only {
 		display: inherit;
+        padding: 0.3em 1em;
 	}
+
+    .navlinks {
+    text-align: center;
+    font-size: 3.5em;
+    line-height: 1.2em;
+    border-bottom: 2px solid #FFF;
+    padding-bottom: .2em;
+    }
+
+    .mobile-contact {
+        font-size: 1.5em;
+        line-height: 1.8em;
+        color: #777777;
+        margin-top: 0.65em;
+    }
+
+    .mobile-contact li {
+        color: #777777;
+    }
 
 	.wide-sidebar{
 		display: none;
 	}
 
 }
+
+/*
+@media only screen and (min-width: 1600px) {
+    /*if very large screen, increase font size 
+    body {
+        font-size: 1.2em;
+        line-height: 1.4em;
+    }
+}
+
+*/

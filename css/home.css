@@ -37,7 +37,6 @@ a {
     color: #FFFFFF;
     display: inline-block;
     width: 100%;
-    transition: .5s ease-out all;
 }
 
 .top-header a,
