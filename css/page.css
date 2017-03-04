@@ -198,6 +198,7 @@ ul.tags li::before {
 
     .breadcrumbs {
         /*display: none; */
+        margin-top: 0.7em;
     }
 
     .main-container{
