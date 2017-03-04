@@ -197,7 +197,7 @@ ul.tags li::before {
 @media only screen and (max-width: 768px) {
 
     .breadcrumbs {
-        display: none; 
+        /*display: none; */
     }
 
     .main-container{
