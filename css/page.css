@@ -24,10 +24,19 @@ p {
 	font-family: Georgia, serif;
 }
 
+img {
+    max-width: 100%;
+}
+
 
 h1,h2,h3,h4,h5 {
     color: #00d2cb;
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; 
+}
+
+article {
+    padding-bottom: 1em;
+    margin-top: 1.2em;
 }
 
 .btn {
@@ -146,6 +155,42 @@ h1,h2,h3,h4,h5 {
     font-size: .8em;
 }
 
+ul.tags {
+    margin: 0;
+    color: #5d5d5d;
+    font-size: 0.8em;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+ul.tags li::before {
+    content: " ▪︎ ";
+}
+
+.project-article p {
+    margin: 0;
+}
+
+.project-article img{
+    padding-bottom: .8em;
+}
+
+.project-article a {
+    display: block;
+    border: none;
+}
+
+.project-article h2 {
+    margin-bottom: 0.4em;
+    text-decoration: none;
+    color: #2b2b2b;
+    border-bottom: 2px #00d2cb solid;
+    border-bottom-style: dotted;
+    display: inline;
+}
+
+.project-article li {
+    display: inline;
+}
 
 
 @media only screen and (max-width: 768px) {
@@ -206,7 +251,7 @@ h1,h2,h3,h4,h5 {
 
 	.menu-btn{
 		display: inline-flex;
-		margin-right: 20px;
+		margin-right: 00px;
         margin-top: 1em;
 	}
 
