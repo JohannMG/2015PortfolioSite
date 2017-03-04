@@ -3,11 +3,11 @@
 
 # TEAM
 
-    <name> -- <role> -- <twitter>
+    Johann Garces -- Developer -- 
 
 # THANKS
 
-    <name>
+    Everyone <3
 
 # TECHNOLOGY COLOPHON
 
